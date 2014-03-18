@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Content Slider</title>
+</head>
+<!-- Latest compiled and minified JS -->
+<script src="jQuery.js"></script>
+<script src="app.js"></script>
+<script src="contentSlider.js"></script>
+<style type="text/css">
+	
+#slider-wrap{
+    width: auto;
+    overflow:auto;
+ 
+}
+#slider-navigation{
+    margin: 0px;
+    padding: 0px;
+    float: left;
+}
+#slider-navi {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+#slider-navi a {
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    width: 150px;
+    height: 25px;
+    display: block;
+    color: #fff;
+    background: rgba(0,0,0,0.4);
+    text-align: center;
+    line-height: 25px;
+    border-bottom: 1px solid #fff;
+}
+#slider-navi a:hover{
+    background: rgba(219,234,249,0.6);
+    color:black;
+}
+#slider-contentWrap{
+    margin-left: 10px;
+    float: left;
+    overflow: hidden;
+    background-color: #ccc;
+ 
+}
+#slider-contentContainer{
+    margin: 0px;
+    padding: 0px;
+    height:auto;
+    float: left;
+ 
+}
+.slider-content{
+    float: left;
+    color:black;
+    text-align: justify;
+}
+
+.slider-content p{
+	padding: 10px;
+}
+
+.slider-content h3{
+	padding: 10px;
+}
+</style>
+<body>
+     <!-- SLIDER START-->
+        <div id="slider-wrap">
+            <div id="slider-navigation">
+                <ul id="slider-navi">
+                    <li class="slider-navItem"><a href="#">Link 1</a></li>
+                    <li class="slider-navItem"><a href="#">Link 2</a></li>
+                                        <li class="slider-navItem"><a href="#">Link 3</a></li>
+                </ul>
+            </div>
+            <div id="slider-contentWrap">
+                <div id="slider-contentContainer">
+                    <div  class="slider-content"><h3>Content 1</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+					</p>
+                     </div>
+                    <div class="slider-content"><h3>Content 2</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+					</p>
+                    </div>
+                    <div class="slider-content"><h3>Content 3</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+						
+						<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, quisquam, corrupti maiores consequatur cupiditate repellendus fugit at et tempora in fuga obcaecati similique consequuntur dolorum modi quia nihil dolorem. Vel.</span>
+						<span>Recusandae veritatis dignissimos quo maiores dolor natus eveniet nemo molestiae assumenda quod! Odio, dolores, minus, perspiciatis, at in debitis natus quibusdam itaque quidem dignissimos amet reprehenderit magnam placeat eum quod.</span>
+						<span>Ipsa, cum, dolore, eius fugit cupiditate dolorem iste odio earum ipsum rem temporibus similique maxime in vel quibusdam laborum et ut eos commodi officia! Iure perferendis nemo aut quasi eaque?</span>
+						<span>Explicabo, et, voluptates voluptatibus eius adipisci veniam impedit eum id maiores temporibus sit officiis velit neque eligendi consectetur deleniti reprehenderit dignissimos. Ipsa, laboriosam, quasi placeat sint quod maiores eius beatae?</span>
+						<span>Perspiciatis, corporis, deleniti, nostrum, architecto non quis doloremque doloribus ad maiores eligendi temporibus in saepe modi asperiores qui. Consequuntur, doloribus fugit numquam repudiandae laudantium mollitia tempora aliquid. Quaerat, nemo, officia.</span>
+						<span>Minima, magnam, possimus, sed, repellat reprehenderit ipsum enim dicta excepturi dolore necessitatibus iure quae quod iste asperiores modi? Quam, aliquam reprehenderit eum quibusdam quasi minus possimus cumque quod alias illo.</span>
+						<span>Vel, atque, id, doloremque, veniam vitae nobis cumque exercitationem nesciunt labore praesentium voluptas corrupti cupiditate laboriosam. Iste, porro ex laborum amet beatae odit magni fuga. Recusandae distinctio pariatur quae laborum.</span>
+						<span>Optio, laboriosam unde esse incidunt beatae fugit rem molestias. Asperiores, maxime, praesentium, sed rem qui doloremque necessitatibus est officia vero accusantium ad suscipit eius commodi veniam repellat temporibus iste vel!</span>
+						<span>Nobis, voluptatum, labore corporis praesentium incidunt nam recusandae vero dolores quis animi! Molestiae, repellendus, cumque delectus nam sapiente pariatur voluptatibus ad doloribus qui dolores quam beatae molestias nulla mollitia alias!</span>
+						<span>Aspernatur, dignissimos, repellat exercitationem temporibus amet accusantium reprehenderit doloremque iste impedit perspiciatis pariatur architecto et ullam cumque ea eum dolorem reiciendis corrupti! Delectus tempore accusamus veritatis officiis rem. Commodi, est!</span>
+					</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- SLIDER END -->
+</body>
+</html>
