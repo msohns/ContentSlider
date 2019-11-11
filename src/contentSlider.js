@@ -1,7 +1,7 @@
 /*
  *  Project: ContentSlider
  *  Description: A Simple ContentSlider with navigation
- *  Author: Malte Sohns
+ *  Author: rangulvers
  *  License: MIT
  */
 
